@@ -4,7 +4,7 @@ A supports chained calls tool  for React/RN projects.
 
 一个适用于react/react-native项目中的样式编写工具。  
 
-事实上，社区里已经有非常成熟的class样式类工具了，比如[classnames](https://www.npmjs.com/package/classnames)这个包，就可以很方便灵活的
+事实上，社区里已经有非常成熟的class样式类工具了，比如[classnames](https://www.npmjs.com/package/classnames)这个包，就可以很方便灵活的处理日常开发工作。
 
 开发此工具的目的并不是为了改变在css/less/sass文件中编写class样式类名的开发方式，可以把link-style工具视为这种方式的互补方法。
 
