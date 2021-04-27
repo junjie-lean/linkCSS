@@ -1,0 +1,1245 @@
+[
+  {
+    "type": "fn",
+    "shortName": "aC",
+    "ReactStyleName": ["alignContent"],
+    "defaultValue": ["stretch"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aT",
+    "ReactStyleName": ["alignItems"],
+    "defaultValue": ["stretch"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aS",
+    "ReactStyleName": ["alignSelf"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["all"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "ani",
+    "ReactStyleName": ["animation"],
+    "defaultValue": ["none 0 ease 0 1 normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniD",
+    "ReactStyleName": ["animationDelay"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniDir",
+    "ReactStyleName": ["animationDirection"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniDur",
+    "ReactStyleName": ["animationDuration"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniFM",
+    "ReactStyleName": ["animationFillMode"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniIC",
+    "ReactStyleName": ["animationIterationCount"],
+    "defaultValue": ["1"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniN",
+    "ReactStyleName": ["animationName"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniPS",
+    "ReactStyleName": ["animationPlayState"],
+    "defaultValue": ["running"]
+  },
+  {
+    "type": "fn",
+    "shortName": "aniTF",
+    "ReactStyleName": ["animationTimingfn"],
+    "defaultValue": ["ease"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bfV",
+    "ReactStyleName": ["backfaceVisibility"],
+    "defaultValue": ["visible"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bg",
+    "ReactStyleName": ["background"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgA",
+    "ReactStyleName": ["backgroundAttachment"],
+    "defaultValue": ["scroll"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgBM",
+    "ReactStyleName": ["backgroundBlendMode"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgClip",
+    "ReactStyleName": ["backgroundClip"],
+    "defaultValue": ["border-box"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgColor",
+    "ReactStyleName": ["backgroundColor"],
+    "defaultValue": ["transparent"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgI",
+    "ReactStyleName": ["backgroundImage"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgO",
+    "ReactStyleName": ["backgroundOrigin"],
+    "defaultValue": ["padding-box"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgP",
+    "ReactStyleName": ["backgroundPosition"],
+    "defaultValue": ["0% 0%"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgR",
+    "ReactStyleName": ["backgroundRepeat"],
+    "defaultValue": ["repeat"]
+  },
+  {
+    "type": "fn",
+    "shortName": "bgS",
+    "ReactStyleName": ["backgroundSize"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["border"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderB",
+    "ReactStyleName": ["borderBottom"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderBC",
+    "ReactStyleName": ["borderBottomColor"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderBLR",
+    "ReactStyleName": ["borderBottomLeftRadius"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderBRR",
+    "ReactStyleName": ["borderBottomRightRadius"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderBS",
+    "ReactStyleName": ["borderBottomStyle"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderBW",
+    "ReactStyleName": ["borderBottomWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderC",
+    "ReactStyleName": ["borderCollapse"],
+    "defaultValue": ["separate"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderColor",
+    "ReactStyleName": ["borderColor"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderI",
+    "ReactStyleName": ["borderImage"],
+    "defaultValue": ["none 100% 1 0 stretch"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderIO",
+    "ReactStyleName": ["borderImageOutset"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderIR",
+    "ReactStyleName": ["borderImageRepeat"],
+    "defaultValue": ["stretch"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderISli",
+    "ReactStyleName": ["borderImageSlice"],
+    "defaultValue": ["100%"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderIS",
+    "ReactStyleName": ["borderImageSource"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderIW",
+    "ReactStyleName": ["borderImageWidth"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderL",
+    "ReactStyleName": ["borderLeft"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderLC",
+    "ReactStyleName": ["borderLeftColor"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderLS",
+    "ReactStyleName": ["borderLeftStyle"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderLW",
+    "ReactStyleName": ["borderLeftWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderR",
+    "ReactStyleName": ["borderRadius"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderRt",
+    "ReactStyleName": ["borderRight"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "birderRC",
+    "ReactStyleName": ["borderRightColor"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderRS",
+    "ReactStyleName": ["borderRightStyle"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderRW",
+    "ReactStyleName": ["borderRightWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["borderSpacing"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderS",
+    "ReactStyleName": ["borderStyle"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderT",
+    "ReactStyleName": ["borderTop"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderTC",
+    "ReactStyleName": ["borderTopColor"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderTLR",
+    "ReactStyleName": ["borderTopLeftRadius"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderTRR",
+    "ReactStyleName": ["borderTopRightRadius"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderTS",
+    "ReactStyleName": ["borderTopStyle"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderTW",
+    "ReactStyleName": ["borderTopWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "borderW",
+    "ReactStyleName": ["borderWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "b",
+    "ReactStyleName": ["bottom"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "boxS",
+    "ReactStyleName": ["boxShadow"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "boxSz",
+    "ReactStyleName": ["boxSizing"],
+    "defaultValue": ["content-box"]
+  },
+  {
+    "type": "fn",
+    "shortName": "breakA",
+    "ReactStyleName": ["breakAfter"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "breakB",
+    "ReactStyleName": ["breakBefore"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "breakI",
+    "ReactStyleName": ["breakInside"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "captionS",
+    "ReactStyleName": ["captionSide"],
+    "defaultValue": ["top"]
+  },
+  {
+    "type": "fn",
+    "shortName": "caretC",
+    "ReactStyleName": ["caretColor"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["clear"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["clip"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "clipP",
+    "ReactStyleName": ["clipPath"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["color"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnC",
+    "ReactStyleName": ["columnCount"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnF",
+    "ReactStyleName": ["columnFill"],
+    "defaultValue": ["balance"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnG",
+    "ReactStyleName": ["columnGap"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnR",
+    "ReactStyleName": ["columnRule"],
+    "defaultValue": ["medium none black"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnRC",
+    "ReactStyleName": ["columnRuleColor"],
+    "defaultValue": ["black"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnRS",
+    "ReactStyleName": ["columnRuleStyle"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnRW",
+    "ReactStyleName": ["columnRuleWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnS",
+    "ReactStyleName": ["columnSpan"],
+    "defaultValue": ["1"]
+  },
+  {
+    "type": "fn",
+    "shortName": "columnW",
+    "ReactStyleName": ["columnWidth"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["columns"],
+    "defaultValue": ["auto auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["content"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "counterI",
+    "ReactStyleName": ["counterIncrement"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "counterR",
+    "ReactStyleName": ["counterReset"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["cursor"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["direction"],
+    "defaultValue": ["ltr"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["display"],
+    "defaultValue": ["inline"]
+  },
+  {
+    "type": "fn",
+    "shortName": "emptyC",
+    "ReactStyleName": ["emptyCells"],
+    "defaultValue": ["show"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["filter"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["flex"],
+    "defaultValue": ["0 1 auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexB",
+    "ReactStyleName": ["flexBasis"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexD",
+    "ReactStyleName": ["flexDirection"],
+    "defaultValue": ["row"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexF",
+    "ReactStyleName": ["flexFlow"],
+    "defaultValue": ["row nowrap"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexG",
+    "ReactStyleName": ["flexGrow"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexS",
+    "ReactStyleName": ["flexShrink"],
+    "defaultValue": ["1"]
+  },
+  {
+    "type": "fn",
+    "shortName": "flexW",
+    "ReactStyleName": ["flexWrap"],
+    "defaultValue": ["nowrap"]
+  },
+  {
+    "type": "fn",
+    "shortName": "float",
+    "ReactStyleName": ["cssFloat"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "ft",
+    "ReactStyleName": ["font"],
+    "defaultValue": ["not specified"]
+  },
+
+  {
+    "type": "fn",
+    "shortName": "fontF",
+    "ReactStyleName": ["fontFamily"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontFS",
+    "ReactStyleName": ["fontFeatureSettings"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontK",
+    "ReactStyleName": ["fontKerning"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontS",
+    "ReactStyleName": ["fontSize"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontSA",
+    "ReactStyleName": ["fontSizeAdjust"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["fontStretch"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["fontStyle"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontV",
+    "ReactStyleName": ["fontVariant"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontVC",
+    "ReactStyleName": ["fontVariantCaps"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "fontw",
+    "ReactStyleName": ["fontWeight"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["grid"],
+    "defaultValue": ["none none none auto auto row"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridA",
+    "ReactStyleName": ["gridArea"],
+    "defaultValue": ["auto / auto / auto / auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridAC",
+    "ReactStyleName": ["gridAutoColumns"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridAF",
+    "ReactStyleName": ["gridAutoFlow"],
+    "defaultValue": ["row"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridAR",
+    "ReactStyleName": ["gridAutoRows"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridC",
+    "ReactStyleName": ["gridColumn"],
+    "defaultValue": ["auto / auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridCE",
+    "ReactStyleName": ["gridColumnEnd"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridCG",
+    "ReactStyleName": ["gridColumnGap"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridCS",
+    "ReactStyleName": ["gridColumnStart"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridG",
+    "ReactStyleName": ["gridGap"],
+    "defaultValue": ["0 0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridR",
+    "ReactStyleName": ["gridRow"],
+    "defaultValue": ["auto / auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridRE",
+    "ReactStyleName": ["gridRowEnd"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridRG",
+    "ReactStyleName": ["gridRowGap"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridRS",
+    "ReactStyleName": ["gridRowStart"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridT",
+    "ReactStyleName": ["gridTemplate"],
+    "defaultValue": ["none none none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridTA",
+    "ReactStyleName": ["gridTemplateAreas"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridTC",
+    "ReactStyleName": ["gridTemplateColumns"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "gridTR",
+    "ReactStyleName": ["gridTemplateRows"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "hangingP",
+    "ReactStyleName": ["hangingPunctuation"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "h",
+    "ReactStyleName": ["height"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["hyphens"],
+    "defaultValue": ["manual"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["isolation"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "justifyC",
+    "ReactStyleName": ["justifyContent"],
+    "defaultValue": ["flex-start"]
+  },
+  {
+    "type": "fn",
+    "shortName": "l",
+    "ReactStyleName": ["left"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "letterS",
+    "ReactStyleName": ["letterSpacing"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "lineH",
+    "ReactStyleName": ["lineHeight"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "listS",
+    "ReactStyleName": ["listStyle"],
+    "defaultValue": ["disc outside none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "listSI",
+    "ReactStyleName": ["listStyleImage"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "listSP",
+    "ReactStyleName": ["listStylePosition"],
+    "defaultValue": ["outside"]
+  },
+  {
+    "type": "fn",
+    "shortName": "listST",
+    "ReactStyleName": ["listStyleType"],
+    "defaultValue": ["disc"]
+  },
+  {
+    "type": "fn",
+    "shortName": "m",
+    "ReactStyleName": ["margin"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "mb",
+    "ReactStyleName": ["marginBottom"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "ml",
+    "ReactStyleName": ["marginLeft"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "mr",
+    "ReactStyleName": ["marginRight"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "mt",
+    "ReactStyleName": ["marginTop"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "maxH",
+    "ReactStyleName": ["maxHeight"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "maxW",
+    "ReactStyleName": ["maxWidth"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "minH",
+    "ReactStyleName": ["minHeight"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "minW",
+    "ReactStyleName": ["minWidth"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "mixBM",
+    "ReactStyleName": ["mixBlendMode"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "objectF",
+    "ReactStyleName": ["objectFit"],
+    "defaultValue": ["see individual properties"]
+  },
+  {
+    "type": "fn",
+    "shortName": "objectP",
+    "ReactStyleName": ["objectPosition"],
+    "defaultValue": ["50% 50%"]
+  },
+  {
+    "type": "fn",
+    "shortName": "op",
+    "ReactStyleName": ["opacity"],
+    "defaultValue": ["1"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["order"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["outline"],
+    "defaultValue": ["invert none medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "outlineC",
+    "ReactStyleName": ["outlineColor"],
+    "defaultValue": ["invert"]
+  },
+  {
+    "type": "fn",
+    "shortName": "outlineO",
+    "ReactStyleName": ["outlineOffset"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "outlineS",
+    "ReactStyleName": ["outlineStyle"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "outlineW",
+    "ReactStyleName": ["outlineWidth"],
+    "defaultValue": ["medium"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["overflow"],
+    "defaultValue": ["visible"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["overflowX"],
+    "defaultValue": ["visible"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["overflowY"],
+    "defaultValue": ["visible"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["padding"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pb",
+    "ReactStyleName": ["paddingBottom"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pl",
+    "ReactStyleName": ["paddingLeft"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pr",
+    "ReactStyleName": ["paddingRight"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pt",
+    "ReactStyleName": ["paddingTop"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pageBA",
+    "ReactStyleName": ["pageBreakAfter"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pBB",
+    "ReactStyleName": ["pageBreakBefore"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pBI",
+    "ReactStyleName": ["pageBreakInside"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["perspective"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "perspectiveO",
+    "ReactStyleName": ["perspectiveOrigin"],
+    "defaultValue": ["50% 50%"]
+  },
+  {
+    "type": "fn",
+    "shortName": "pointerE",
+    "ReactStyleName": ["pointerEvents"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["position"],
+    "defaultValue": ["static"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["quotes"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["resize"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "r",
+    "ReactStyleName": ["right"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "scrollB",
+    "ReactStyleName": ["scrollBehavior"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["tabSize"],
+    "defaultValue": ["8"]
+  },
+  {
+    "type": "fn",
+    "shortName": "tableL",
+    "ReactStyleName": ["tableLayout"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textA",
+    "ReactStyleName": ["textAlign"],
+    "defaultValue": [""]
+  },
+  {
+    "type": "fn",
+    "shortName": "textAL",
+    "ReactStyleName": ["textAlignLast"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textD",
+    "ReactStyleName": ["textDecoration"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textDC",
+    "ReactStyleName": ["textDecorationColor"],
+    "defaultValue": ["currentColor"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textDL",
+    "ReactStyleName": ["textDecorationLine"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textDS",
+    "ReactStyleName": ["textDecorationStyle"],
+    "defaultValue": ["solid"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textI",
+    "ReactStyleName": ["textIndent"],
+    "defaultValue": ["not specified"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textJ",
+    "ReactStyleName": ["textJustify"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textO",
+    "ReactStyleName": ["textOverflow"],
+    "defaultValue": ["clip"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textS",
+    "ReactStyleName": ["textShadow"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "textT",
+    "ReactStyleName": ["textTransform"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "t",
+    "ReactStyleName": ["top"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "tf",
+    "ReactStyleName": ["transform"],
+    "defaultValue": ["none"]
+  },
+  {
+    "type": "fn",
+    "shortName": "tfO",
+    "ReactStyleName": ["transformOrigin"],
+    "defaultValue": ["50% 50% 0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "tfS",
+    "ReactStyleName": ["transformStyle"],
+    "defaultValue": ["flat"]
+  },
+  {
+    "type": "fn",
+    "shortName": "trans",
+    "ReactStyleName": ["transition"],
+    "defaultValue": ["all 0 ease 0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "transDe",
+    "ReactStyleName": ["transitionDelay"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "transDur",
+    "ReactStyleName": ["transitionDuration"],
+    "defaultValue": ["0"]
+  },
+  {
+    "type": "fn",
+    "shortName": "transP",
+    "ReactStyleName": ["transitionProperty"],
+    "defaultValue": ["all"]
+  },
+  {
+    "type": "fn",
+    "shortName": "transT",
+    "ReactStyleName": ["transitionTimingfn"],
+    "defaultValue": ["ease"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["unicodeBidi"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "userS",
+    "ReactStyleName": ["userSelect"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "verticalA",
+    "ReactStyleName": ["verticalAlign"],
+    "defaultValue": ["baseline"]
+  },
+  {
+    "type": "fn",
+    "shortName": "v",
+    "ReactStyleName": ["visibility"],
+    "defaultValue": ["visible"]
+  },
+  {
+    "type": "fn",
+    "shortName": "whiteS",
+    "ReactStyleName": ["whiteSpace"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "w",
+    "ReactStyleName": ["width"],
+    "defaultValue": ["auto"]
+  },
+  {
+    "type": "fn",
+    "shortName": "wordB",
+    "ReactStyleName": ["wordBreak"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "wordS",
+    "ReactStyleName": ["wordSpacing"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "wordW",
+    "ReactStyleName": ["wordWrap"],
+    "defaultValue": ["normal"]
+  },
+  {
+    "type": "fn",
+    "shortName": "writingM",
+    "ReactStyleName": ["writingMode"],
+    "defaultValue": ["horizontal-tb"]
+  },
+  {
+    "type": "fn",
+    "shortName": "",
+    "ReactStyleName": ["zIndex"],
+    "defaultValue": ["auto"]
+  }
+]
