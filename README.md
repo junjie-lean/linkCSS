@@ -8,7 +8,27 @@
 ```
 
 使用方法:
-```
-    import {}
+```jsx
+    import linkCSS from 'linkcss';
+
+    ...
+
+    const commonStyle  = linkCSS.w( "100%" )
+                                .h(somecondition ? 200 : 300 )
+                                .fontS( 20 )
+                                .mt( 20 )
+                                .displayF
+                                .position("relative")
+                                .end;
+
+
+                                
+    <div style={commonStyle}>
+
+        <div>
+
+        </div>
+
+    </div>
 
 ```

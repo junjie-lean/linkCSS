@@ -2,7 +2,7 @@
  * @Author: junjie.lean
  * @Date: 2021-04-23 11:29:21
  * @Last Modified by: junjie.lean
- * @Last Modified time: 2021-04-27 10:42:14
+ * @Last Modified time: 2021-04-27 10:57:50
  */
 const cssList = require("./cssList.json");
 const cssSpecialList = require("./cssSpecialList.json");
@@ -17,7 +17,7 @@ const base = {
 /**
  * @description 关键原型对象
  */
-const linkStyle = Object.create(
+const linkCSS = Object.create(
   {},
   {
     //合并对象
@@ -101,7 +101,7 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
           item.defaultValue[0] === "not specified"
             ? null
             : item.defaultValue[0];
-        Object.defineProperties(linkStyle, {
+        Object.defineProperties(linkCSS, {
           [ReactStyleName]: {
             //默认情况,全称必有的情况:
             value: function (v = defailtValue) {
@@ -138,7 +138,7 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
       } else {
         //特殊处理的字段
         //比如 displayF
-        Object.defineProperty(linkStyle, item.specialDisposeName, {
+        Object.defineProperty(linkCSS, item.specialDisposeName, {
           get() {
             return this.combineStyle(item.specialDisposeValue);
           },
@@ -148,7 +148,7 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
     })
   : null;
 
-module.exports = linkStyle;
+module.exports = linkCSS;
 
-// console.log(linkStyle.pos("relative").fs(24).end);
-// console.log(linkStyle.padding(10).fs(23).end);
+// console.log(linkCSS.pos("relative").fs(24).end);
+// console.log(linkCSS.padding(10).fs(23).end);
