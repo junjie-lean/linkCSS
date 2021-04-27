@@ -2,7 +2,7 @@
  * @Author: junjie.lean
  * @Date: 2021-04-23 11:29:21
  * @Last Modified by: junjie.lean
- * @Last Modified time: 2021-04-27 12:51:39
+ * @Last Modified time: 2021-04-27 13:57:51
  */
 const cssList = require("./cssList.json");
 const cssSpecialList = require("./cssSpecialList.json");
@@ -61,7 +61,7 @@ const linkCSS = Object.create(
         if (customStyleObj.type === "fn") {
           Object.defineProperty(this, customStyleObj.callName, {
             value: function (v) {
-              if (!v) {
+              if (arguments.length === 0 || v === "") {
                 throw new Error(
                   `'${customStyleObj.callName}'没有设置默认值,该属性必须设置一个值!`
                 );
@@ -79,7 +79,7 @@ const linkCSS = Object.create(
           });
         }
       },
-      enumerable: true,
+      enumerable: false,
       configurable: false,
     },
     //结束链式调用并返回样式对象
@@ -127,7 +127,7 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
           [ReactStyleName]: {
             //默认情况,全称必有的情况:
             value: function (v = defailtValue) {
-              if (!v) {
+              if (arguments.length === 0 || v === "") {
                 throw new Error(
                   `'${shortName}'/'${ReactStyleName}' 没有设置默认值,该属性必须设置一个值!`
                 );
@@ -136,14 +136,15 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
             },
             configurable: false,
             // enumerable: isDev,
-            enumerable: !isDev,
+            enumerable: false,
+            // enumerable: !isDev,
           },
           ...(shortName
             ? {
                 //有短名称的情况下:
                 [shortName]: {
                   value: function (v = item.defaultValue) {
-                    if (!v) {
+                    if (arguments.length === 0 || v === "") {
                       throw new Error(
                         `'${shortName}'/'${ReactStyleName}' 没有设置默认值,该属性必须设置一个值!`
                       );
@@ -152,7 +153,8 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
                   },
                   configurable: false,
                   // enumerable: isDev,
-                  enumerable: !isDev,
+                  enumerable: false,
+                  // enumerable: !isDev,
                 },
               }
             : {}),
@@ -164,13 +166,10 @@ Array.isArray(cssList) && Array.isArray(cssSpecialList)
           get() {
             return this.combineStyle(item.specialDisposeValue);
           },
-          enumerable: isDev,
+          enumerable: false,
         });
       }
     })
   : null;
 
 module.exports = linkCSS;
-
-// console.log(linkCSS.pos("relative").fs(24).end);
-// console.log(linkCSS.padding(10).fs(23).end);

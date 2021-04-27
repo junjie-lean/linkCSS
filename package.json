@@ -1,6 +1,6 @@
 {
   "name": "link-style",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
