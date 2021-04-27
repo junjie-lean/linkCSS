@@ -1,12 +1,17 @@
 {
   "name": "link-style",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "description": "A supports chained calls tool  for React/RN projects.",
+  "keywords": [
+    "css",
+    "chained",
+    "react",
+    "react-native"
+  ],
   "author": "junjie.lean <junjie.lean@foxmail.com>",
   "license": "MIT"
 }
