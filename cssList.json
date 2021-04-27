@@ -1,19 +1,19 @@
 [
   {
     "type": "fn",
-    "shortName": "aC",
+    "shortName": "alignC",
     "ReactStyleName": ["alignContent"],
     "defaultValue": ["stretch"]
   },
   {
     "type": "fn",
-    "shortName": "aT",
+    "shortName": "alignI",
     "ReactStyleName": ["alignItems"],
     "defaultValue": ["stretch"]
   },
   {
     "type": "fn",
-    "shortName": "aS",
+    "shortName": "alignS",
     "ReactStyleName": ["alignSelf"],
     "defaultValue": ["auto"]
   },
