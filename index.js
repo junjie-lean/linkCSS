@@ -2,7 +2,7 @@
  * @Author: junjie.lean
  * @Date: 2021-04-23 11:29:21
  * @Last Modified by: junjie.lean
- * @Last Modified time: 2021-04-27 10:57:50
+ * @Last Modified time: 2021-04-27 12:51:39
  */
 const cssList = require("./cssList.json");
 const cssSpecialList = require("./cssSpecialList.json");
@@ -54,8 +54,30 @@ const linkCSS = Object.create(
     },
     //自定义样式
     customStyle: {
-      value: function (styleList) {
-        
+      value: function (customStyleObj) {
+        if (!customStyleObj) {
+          throw new Error("自定义样式必须设置相关参数!");
+        }
+        if (customStyleObj.type === "fn") {
+          Object.defineProperty(this, customStyleObj.callName, {
+            value: function (v) {
+              if (!v) {
+                throw new Error(
+                  `'${customStyleObj.callName}'没有设置默认值,该属性必须设置一个值!`
+                );
+              }
+              return this.combineStyle({
+                [customStyleObj.styleName]: v,
+              });
+            },
+          });
+        } else {
+          Object.defineProperty(this, customStyleObj.callName, {
+            get() {
+              return this.combineStyle(customStyleObj.styleValue);
+            },
+          });
+        }
       },
       enumerable: true,
       configurable: false,
