@@ -1,14 +1,17 @@
 # linkCSS
 
-一个适用于react/react-native项目中的样式编写工具。
+一个适用于react/react-native项目中的样式编写工具。  
+
+事实上，社区里已经有非常成熟的class样式类工具了，比如[classnames](https://www.npmjs.com/package/classnames)这个包，就可以很方便灵活的
+
 开发此工具的目的并不是为了完全改变在css文件中编写class样式类名的开发方式，可以把linkcss工具视为这种方式的互补方法。
 
-安装:
+### 安装:
 ```
     npm install linkcss
 ```
 
-使用方法:
+### 使用方法:
 ```jsx
 
     //react组件:
@@ -58,6 +61,10 @@
 
 ```
 
-自定义样式方法
+### 自定义样式方法
+    `linkcss` 从w3cShool的 [css参考手册](https://www.w3school.com.cn/cssref/index.asp) 爬取了css的基础属性，如果这些属性还不能满足你的开发的话，还可以自定义配置linkcss的方法：
+```jsx
+  
+  
 
-    `linkcss`从w3cShool的(css参考手册)[https://www.w3school.com.cn/cssref/index.asp]爬取了
+```
