@@ -289,6 +289,8 @@ A supports chained calls tool  for React/RN projects.
      linkcss.customStyle( {  type:"fn" ,callName:"marginL", styleName:"marginLeft"  } ) 
      //props
      linkcss.customStyle( {  type:"sd" ,callName:"colorRed",styleValue:{ color:"red"}  } )  
+     //multiple
+     linkcss.customStyle( {  type:"sd" ,callName:"midInParent",styleValue:{ positon:"absolute",left:"50%",top:"50%" ,transform:"translate(-50%,-50%)"  }  } )  
   
       
      const someStyle =  linkcss.w(200).colorRed.marginL(30).fontS(18).end;
